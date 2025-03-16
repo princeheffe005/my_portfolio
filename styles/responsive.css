@@ -1,0 +1,39 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #home h1 {
+      font-size: 2rem;
+    }
+  
+    #home p {
+      font-size: 1rem;
+    }
+  
+    .project-card {
+      padding: 1rem;
+    }
+  
+    .project-card a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #home h1 {
+      font-size: 1.8rem;
+    }
+  
+    #home p {
+      font-size: 0.9rem;
+    }
+  
+    .skills ul li {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  }

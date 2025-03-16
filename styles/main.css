@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  /* Hero Section */
+  #home {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #0073e6;
+    color: #fff;
+  }
+  
+  #home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #home a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #home a:hover {
+    background: #ff4500; /* OrangeRed color */
+  }
+  
+  /* About Section */
+  #about {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  #about h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skills {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  #projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    margin-bottom: 1rem;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project-card a:hover {
+    background: #005bb5;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background: #005bb5;
+  }
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
+  /* Theme Toggle Button */
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  /* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode header {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode #home {
+    background-color: #1e3a8a;
+  }
+  
+  body.dark-mode #about,
+  body.dark-mode #projects,
+  body.dark-mode #contact {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode .project-card {
+    background-color: #2d2d2d;
+    color: #ffffff;
+  }
+  
+  body.dark-mode form input,
+  body.dark-mode form textarea {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-color: #444;
+  }
+  
+  body.dark-mode form button {
+    background-color: #1e3a8a;
+  }
+  
+  body.dark-mode form button:hover {
+    background-color: #1c3d6a;
+  }
